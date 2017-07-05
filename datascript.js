@@ -6,4 +6,7 @@ MongoClient.connect("mongodb://localhost:27017/mwrobotdb", function(error, db){
   // data.users.forEach(function(user){
   //   collection.insert({id: user.id, username: user.username, name: user.name, avatar: user.avatar, email: user.email, university: user.university, job: user.job, company: user.company, skills: user.skills, phone: user.phone});
   // });
+  // data.users.forEach(function(user){
+  //   collection.update({}, {id: user.id, username: user.username, name: user.name, avatar: user.avatar, email: user.email, university: user.university, job: user.job, company: user.company, skills: user.skills, phone: user.phone, address: user.address});
+  // });
 });
